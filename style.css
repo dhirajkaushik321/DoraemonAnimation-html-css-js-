@@ -1,5 +1,29 @@
+
+@media(max-width: 1000px){
+	.doremon{
+		transform: scale(0.8);
+	}
+}
+@media(max-width:800px)
+{
+	.doremon{
+		transform: scale(0.7);
+	}
+}
+@media(max-width:600px)
+{
+	.doremon{
+		transform: scale(0.6);
+	}
+	
+}
+
 body{
-	background-color: #111;
+	background-color: #fff;
+	width: 60%;
+	height: 80%;
+	padding-top:15%;
+	padding-left: 15%;
 }
 .face{
 width: 300px;
@@ -11,6 +35,7 @@ border-radius: 100%;
 position: relative;
 margin: 0 auto;
 background-color:#298ABF;
+z-index: 2;
 }
 .inside-face{
 width:250px;
@@ -142,7 +167,7 @@ z-index: 1;
 	background-color: #298ABF;
 	position: absolute;
 	border-radius: 45%;
-	z-index: -1;
+	z-index: 1;
 	position: relative;
 	margin: 0 auto;
 	top: -20px;
@@ -293,5 +318,5 @@ right: 17px;
 	border-radius: 40%;
 	position: absolute;
 	bottom:-40px;
-	left: -12px;
+	left: -14px;
 }

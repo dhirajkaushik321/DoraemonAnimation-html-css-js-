@@ -1,5 +1,6 @@
 
-@media(max-width: 1000px){
+@media(max-width: 1000px)
+{
 	.doremon{
 		transform: scale(0.8);
 	}
@@ -15,9 +16,7 @@
 	.doremon{
 		transform: scale(0.6);
 	}
-	
 }
-
 body{
 	background-color: #fff;
 	width: 60%;
@@ -25,7 +24,10 @@ body{
 	padding-top:15%;
 	padding-left: 15%;
 }
-.face{
+.doremon{
+	position: relative;
+}
+.face { 	
 width: 300px;
 height: 250px;
 border: 4px solid #222;
@@ -158,7 +160,20 @@ z-index: 1;
 	 z-index: 1;
 	 top: 165px;
 	 left: 75px;
-	
+}
+/*Jumping ball*/
+.ball{
+	width: 60px;
+	height: 60px;
+	border:2px solid #333;
+	position: absolute;
+	background-color: green;
+	border-radius: 100%;
+	top: 10px;
+	left: -130px;
+	animation-name:bounce;
+	animation-duration: 4s; 
+	animation-delay: 0.2s;
 }
 .dbody{
 	width: 220px;
@@ -263,13 +278,17 @@ top: 10px;
 z-index: -1;
 }
 .lhand{
-	left: -60px;
+left: -60px;
 transform: rotate(-40deg);
-
+animation-name: lhit;
+animation-duration: 1s;
 }
 .rhand{
-	right: -60px;
+right: -60px;
 transform:rotate(40deg);
+animation-name: rhit;
+animation-duration: 1s;
+animation-delay: 2s;
 
 }
 .palm{

@@ -1,0 +1,59 @@
+@keyframes bounce{
+	0%{
+	top: 10px;
+	left: -130px;
+
+	}
+	12.5%{
+		top: -250px;
+		left: -180px;
+	}
+	25%{
+		top: -500px;
+		left: 40px;
+	}
+	37.5%{
+		top: -250px;
+		left: 350px;
+	}
+	50%{
+		top:0px;
+		left: 260px;
+	}
+	62.5%{
+		top: -250px;
+		left: 350px;
+
+	}
+	75%{
+		top: -500px;
+		left: 40px;
+	}
+	87.5%{
+		top: -250px;
+		left: -180px;
+	}
+	100%{
+		top: 10px;
+	 	left: -130px;
+
+	}
+}
+@keyframes lhit{
+0%{}
+50%{
+	transform: rotate(-15deg);
+}
+100%{transform: rotate(-40deg);
+
+}
+}
+@keyframes rhit{
+0%{}
+50%{
+	transform: rotate(15deg);
+}
+100%{transform: rotate(40deg);
+
+}
+}

@@ -155,14 +155,34 @@ z-index: 1;
 	top: 18px;
 	background-color: gold;
 }
+.ring1{
+	width:40px;
+	height: 5px;
+	border:2px solid #555;
+	border-bottom:2px solid yellow;
+	border-radius: 100%;
+	position: absolute;
+	top: 5px;
+	left: 2px;
+}
+.ring2{
+	width:46px;
+	height: 5px;
+	border:2px solid #555;
+	border-bottom:2px solid yellow;
+	border-radius: 100%;
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
 .inside-yellow-ball{
-	width:20px;
-	height: 20px;
+	width:15px;
+	height: 15px;
 	background-color: #888;
 	border-radius: 200%;
 	position: absolute;
-	top:12px;
-	left: 14px;
+	top:20px;
+	left: 16px;
 }
 .inside-yellow-ball-2{
 	width: 2px;

@@ -1,4 +1,6 @@
-
+body{
+	background-color: #111;
+}
 .face{
 width: 300px;
 height: 250px;
@@ -62,6 +64,16 @@ position: absolute;
 top:90px;
 left:128px;
 z-index: 1;
+}
+.inside-nose{
+	width:15px;
+	height: 15px;
+	background-color: #fff;
+	position: absolute;
+	border-radius: 100%;
+	top:10px;
+	left: 10px;
+	opacity: 0.9;
 }
 .noseLine{
 	width:0;
@@ -196,7 +208,7 @@ z-index: 1;
 }
 .pocket{
 	width: 180px;
-	height: 170px;
+	height: 172px;
 	background-color: #EAF4F4;
 	border:2px solid #333;
 	border-radius: 60%;
@@ -222,17 +234,17 @@ border:2px solid #333;
 position: absolute;
 background-color: #298ABF;
 border-radius: 30%;
-top:255px;
+top: 10px;
 z-index: -1;
 }
 .lhand{
-right: 75px;
-transform: rotate(40deg);
+	left: -60px;
+transform: rotate(-40deg);
 
 }
 .rhand{
-left: 75px;
-transform:rotate(-40deg);
+	right: -60px;
+transform:rotate(40deg);
 
 }
 .palm{
@@ -245,14 +257,41 @@ transform:rotate(-40deg);
 }
 .lpalm{
 	top:-10px;
-	left: 80px;
+	right: 80px;
+	
 }
 .rpalm{
 top:-10px;
-right: 80px;
+left: 80px;
 }
 /*.hi-bye{
 top: 215px;
 right: 75px;
 transform: rotate(-35deg);
 }*/
+.leg{
+	width: 70px;
+	height:40px;
+	background-color: #298ABF;
+	position: absolute;
+	bottom:-10px;
+	border: 2px solid #333;
+	z-index: -2;
+	border-top:0;
+}
+.lleg{
+left: 17px;
+}
+.rleg{
+right: 17px;
+	}
+.feet{
+	width: 100px;
+	height: 40px;
+	background-color: #EAF4F4;
+	border:2px solid #333;
+	border-radius: 40%;
+	position: absolute;
+	bottom:-40px;
+	left: -12px;
+}

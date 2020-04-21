@@ -7,40 +7,54 @@
 	12.5%{
 		top: -250px;
 		left: -180px;
+		background-color: gold;
+		transform: scale(1.2);
 	}
 	25%{
 		top: -500px;
 		left: 40px;
+		transform: scale(1.4);
 	}
 	37.5%{
 		top: -250px;
 		left: 350px;
+		background-color: red;
+		transform: scale(1.2);
 	}
 	50%{
 		top:0px;
 		left: 260px;
+		background-color: green;
+		transform: scale(1);
 	}
 	62.5%{
 		top: -250px;
 		left: 350px;
-
+		background-color: cyan;
+		transform: scale(1.2);
 	}
 	75%{
 		top: -500px;
 		left: 40px;
+		background-color: orange;
+		transform: scale(1.4);
 	}
 	87.5%{
 		top: -250px;
 		left: -180px;
+		background-color: blue;
+		transform: scale(1.2);
 	}
 	100%{
 		top: 10px;
 	 	left: -130px;
+	 	background-color: green;
+	 	transform: scale(1);
+	}}
 
-	}
-}
-@keyframes lhit{
-0%{}
+
+@keyframes lhit
+{
 50%{
 	transform: rotate(-15deg);
 }
@@ -49,11 +63,49 @@
 }
 }
 @keyframes rhit{
-0%{}
 50%{
 	transform: rotate(15deg);
 }
 100%{transform: rotate(40deg);
 
+}
+}
+
+@keyframes eye{
+0%{
+	left: 0px;
+	top: 50px;
+}
+12.5%{
+	left: 0px;
+	top: 25px;
+}
+25%{
+	left:10px;
+	top: 10px;
+}
+37.5%{
+	left:30px;
+	top: 25px;
+}
+50%{
+	left: 30px;
+	top: 50px;
+}
+62.5%{
+	left:30px;
+	top: 25px;
+}
+75%{
+	left:10px;
+	top: 10px;
+}
+87.5%{
+	left: 0px;
+	top: 25px;
+}
+100%{
+	left: 0px;
+	top: 50px;
 }
 }
